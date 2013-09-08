@@ -17,19 +17,24 @@ Results of analysis are demonstrated through some pie charts and line charts, as
 What Are They
 ---
 
-Report.pdf is my final report of this project.
-
 All source code is organised in eclipse, a common IDE for Java. 
 
+Report.pdf is my final report of this project.
 
-There are three sub-folders:
-api: Include all Jar packages in this project.
+source_code folder is all the source code.
+
+executable folder is a deployed folder.
+
+In executable, there are three sub-folders:
+
+* api: Include all Jar packages in this project.
+	
 	ASMInstrument.jar is the Jar package implement algorithm in this project.
 	asm-3.0.jar is used in ASMInstrument.jar for instrument with Java bytecode.
 	jcommon-1.0.16.jar and jfreechart-1.0.14.jar are used for drawing charts in this project.
-	dacapo-9.12-bach.jar is the Jar package which has been tested by this project.
-pro: The configuration file, fyp.properties, exists in this folder.
-result: A folder to keep result produced by this program.
+	[dacapo-9.12-bach.jar](http://sourceforge.net/projects/dacapobench/) is the Jar package which has been tested by this project. Caused it's more than 100M, **user can download it by yourself and add it in this folder**.
+* pro: The configuration file, fyp.properties, exists in this folder.
+* result: A folder to keep result produced by this program.
 
 
 To execute the program in this project:
@@ -43,7 +48,12 @@ To execute the program in this project:
 
 * Step5. Check result files in result direcory. 
 
-	
+Thanks To
+---
+
+[ASM library](http://asm.ow2.org/)
+
+
 #License
 
 rcjp is published under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
